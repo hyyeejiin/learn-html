@@ -1,12 +1,14 @@
+@import url(./reset.css);
+
 /* label {
   font-size: 48px;
   background-color: rgb(255, 153, 127);
 } */
 
-.first-lable {
+/* .first-lable {
   font-size: 48px;
   background-color: rgb(255, 153, 127);
-}
+} */
 
 #login {
   background-color: rgb(184, 94, 186);
@@ -32,4 +34,15 @@ h2 {
   background-color: darkslateblue;
   /* background-color: rgba(rgb(114, 44, 44), rgb(101, 133, 101), blue, .1); */
   opacity: 0.5;
+}
+form {
+    padding: 10px 0px;
+    margin: 20px 0px;
+}
+form + div {
+    margin-bottom: 20px;
+}
+#login {
+    padding: 8px 16px;
+    margin: 24px;
 }
