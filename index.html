@@ -4,13 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>오늘의 학습</title>
+
+    <!-- 내부 스타일 시트 -->
+    <style>
+      p {
+        color: blue;
+      }
+      form {
+        background-color: bisque;
+      }
+      /* form {background-color: rgb(255, 196, 242);} */
+    </style>
+
+    <!-- 외부 스타일 시트 -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- form 태그 활용 -->
     <form>
       <!-- 입력 요소 -->
       <div>
-        <label for="user-id">ID :</label>
+        <label for="user-id" class="first-lable">ID :</label>
         <input
           type="text"
           id="user-id"
@@ -20,7 +34,7 @@
         />
       </div>
       <div>
-        <label for="password">Password :</label>
+        <label for="password" class="first-lable">Password :</label>
         <input
           type="password"
           id="password"
@@ -63,7 +77,7 @@
         /><label for="female">여자</label><br />
       </div>
       <!-- <input type="submit" value="로그인"> -->
-      <button type="submit">로그인</button>
+      <button type="submit" id="login">로그인</button>
     </form>
 
     <div>
@@ -92,8 +106,8 @@
     <!-- 주석 ctrl + /-->
     <hr />
 
-    <p>
-      Lorem ipsum <span style="color: rgb(255, 80, 80)">dolor</span> sit amet
+    <p style="color: green">
+      Lorem ipsum <span style="color: rgb(188, 80, 255)">dolor</span> sit amet
       consectetur adipisicing elit. Quos, minima? Non rerum, odio voluptas
       cumque repudiandae ipsa voluptatem sint recusandae eius nesciunt
       praesentium soluta officiis doloribus eos velit asperiores. Ratione.

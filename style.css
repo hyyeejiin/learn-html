@@ -1,0 +1,19 @@
+/* label {
+  font-size: 48px;
+  background-color: rgb(255, 153, 127);
+} */
+
+.first-lable {
+  font-size: 48px;
+  background-color: rgb(255, 153, 127);
+}
+
+#login {
+  background-color: rgb(184, 94, 186);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ul li {
+  list-style: none;
+}
